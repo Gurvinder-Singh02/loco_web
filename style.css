@@ -8,6 +8,7 @@
     position: relative;
 }
 
+
 .nav{
     position: absolute;
     top : 0;
@@ -27,4 +28,10 @@
 .page1 .me{
     font-size: 7vw;
     color: #fff;
+    /* transition: all .5s ease; */
+}
+.page1 .me:hover{
+    -webkit-text-stroke: 1.2px #000;
+    color: transparent;
+    font-weight: 500;
 }
