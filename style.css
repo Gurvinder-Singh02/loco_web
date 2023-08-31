@@ -1,0 +1,30 @@
+.page1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    top : 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 2vw;
+}
+
+.nav h4{
+    font-size: 1.5vw;
+}
+.page1 .title{
+    padding: 0 2vw;
+    margin-top: 20vh;
+}
+.page1 .me{
+    font-size: 7vw;
+    color: #fff;
+}
